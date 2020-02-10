@@ -21,7 +21,7 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     
-    input = gets #case when 
+    input = gets #case when.... else 
     
     
     
