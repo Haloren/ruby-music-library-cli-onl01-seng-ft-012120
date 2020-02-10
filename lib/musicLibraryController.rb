@@ -22,9 +22,12 @@ class MusicLibraryController
     puts "What would you like to do?"
     
     input = gets 
-    #loops and asks for user input until they type in exit (case)
-    
-    
+    #loops and asks for user input until they type in exit (case, end with exit)
+    case input
+    when "list_"
+      
+      
+    end 
     
   end   
   
