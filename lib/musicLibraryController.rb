@@ -24,9 +24,25 @@ class MusicLibraryController
     input = gets 
     #loops and asks for user input until they type in exit (case, end with exit)
     case input
-    when "list_"
-      
-      
+    when "list songs"
+
+    when "list artists"
+
+    when "list genres"  
+
+    when "list artist"
+
+    when "list genre"  
+
+    when "list song"
+
+    when "exit"
+
+      return
+
+    else   
+      call 
+
     end 
     
   end   
