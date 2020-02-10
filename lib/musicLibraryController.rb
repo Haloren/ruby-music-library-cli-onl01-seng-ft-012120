@@ -38,8 +38,6 @@ class MusicLibraryController
 
     when "exit"
 
-      return
-
     else   
       call 
 
