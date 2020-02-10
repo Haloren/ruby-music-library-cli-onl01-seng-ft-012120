@@ -37,7 +37,7 @@ class MusicLibraryController
       when "list song"
   
       when "exit"
-        exit 
+        return  
     end 
     
   end   
