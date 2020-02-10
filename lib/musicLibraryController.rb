@@ -11,6 +11,7 @@ class MusicLibraryController
   
   def call 
     
+    input = gets 
     if input != exit 
     
     puts "Welcome to your music library!"
@@ -23,7 +24,7 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     
-    input = gets 
+    # input = gets 
     #loops and asks for user input until they type in exit (case, end with exit)
     case input
       when "list songs"
